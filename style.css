@@ -8,23 +8,23 @@
 }
 
 body {
-    background: linear-gradient(135deg, black, #ff007f, #d3d3d3);
+    background: linear-gradient(135deg, rgb(179, 244, 246), #e95ba2, #53bdff);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     text-align: center;
-    color: white;
+    color: rgb(46, 0, 35);
     padding: 20px;
 }
 
 .container {
-    background: rgba(0, 0, 0, 0.7);
+    background: linear-gradient(135deg, rgb(160, 180, 211), #abcef4, #b549a6);
     padding: 20px;
     border-radius: 12px;
     max-width: 400px;
     width: 100%;
-    box-shadow: 0px 0px 10px rgba(255, 0, 127, 0.6);
+    box-shadow: 0px 0px 10px rgba(255, 0, 128, 0.6);
 }
 
 .title {
@@ -51,8 +51,8 @@ body {
 }
 
 .confirm-button {
-    background: #ff007f;
-    color: white;
+    background: linear-gradient(135deg, rgb(179, 199, 246), #e95ba2, #53bdff);
+    color: rgb(0, 0, 0);
     border: none;
     padding: 12px 20px;
     font-size: 1rem;
@@ -63,5 +63,5 @@ body {
 }
 
 .confirm-button:hover {
-    background: #e6006b;
+    background: #ff73b4;
 }
